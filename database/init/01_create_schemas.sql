@@ -1,0 +1,3 @@
+CREATE SCHEMA IF NOT EXISTS dadosabertosaneel;
+CREATE SCHEMA IF NOT EXISTS dbt_epizzani;
+CREATE SCHEMA IF NOT EXISTS analytics;
