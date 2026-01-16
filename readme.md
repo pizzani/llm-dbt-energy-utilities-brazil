@@ -1,0 +1,2 @@
+# LLM DBT Energy Utilities Brazil
+Este projeto tem como objetivo validar uma Prova de Conceito (PoC) para a utilização da tecnologia de código aberto dbt na modelagem, transformação e documentação de dados do setor de distribuição de energia elétrica no Brasil, com foco na geração de contexto estruturado para consumo por metodologias de Retrieval-Augmented Generation (RAG) aplicadas a Large Language Models (LLMs).
