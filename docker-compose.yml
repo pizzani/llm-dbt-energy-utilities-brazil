@@ -24,5 +24,18 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      postgres_db:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    tty: true
+    stdin_open: true
+
 volumes:
   postgres_data:
