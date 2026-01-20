@@ -22,6 +22,3 @@ class DatabaseConfig:
             'user': self.user,
             'password': self.password
         }
-
-
-db_config = DatabaseConfig()

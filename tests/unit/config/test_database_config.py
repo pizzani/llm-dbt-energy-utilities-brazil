@@ -1,5 +1,5 @@
 import pytest
-from src.config.database import DatabaseConfig
+from src.config.database_config import DatabaseConfig
 
 def test_database_config_defaults():
     config = DatabaseConfig()
